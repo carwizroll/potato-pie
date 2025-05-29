@@ -27,10 +27,37 @@ gap: 12px;
 a {
 text-decoration: none;
 color: #E5E7EB;
+font-size: 18px;
 }
 
-img {
+img, .hero-right {
+    width: 500px;
+}
+
+.hero-content {
+    display: flex;
+    margin: 12px;
     max-width: 100%;
     height: auto;
+    justify-content: space-between;
 }
 
+.hero-main {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.hero-sub {
+font-size: 18px;
+color: #E5E7EB;
+}
+
+.hero-button {
+    background-color: #3882F6;
+}
+
+button {
+    padding: 12px 24px;
+    border-radius: 8px;
+}
