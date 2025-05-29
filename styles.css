@@ -48,7 +48,7 @@ img, .hero-right {
     font-weight: 900;
 }
 
-.hero-sub {
+.hero-sub, .info-subtext {
 font-size: 18px;
 color: #E5E7EB;
 }
@@ -60,4 +60,18 @@ color: #E5E7EB;
 button {
     padding: 12px 24px;
     border-radius: 8px;
+}
+
+.information-section {
+    display: flex;
+    background-color: white;
+    margin: 0;
+}
+
+.card {
+    border: #3882F6;
+    border-style: double;
+    border-radius: 8px;
+    width: 100px;
+    height: 100px;
 }
