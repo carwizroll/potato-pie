@@ -1,8 +1,6 @@
 body {
     font-family: "Roboto", sans-serif;
     background-color: #1F2937;
-    /*display: flex;
-    flex-direction: column;*/
 }
 
 .header-group {
@@ -92,5 +90,21 @@ button {
 
 .info-subtext {
     margin-top: 5px;
-    flex: 1;
+}
+
+.quote-section {
+    background-color: #E5E7EB;
+    padding: 48px 128px;
+}
+
+.quote-main-text {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    color: #1F2937;
+    margin: 0;
+}
+
+.quote-subtext {
+    text-align: right;
 }
