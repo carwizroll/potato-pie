@@ -1,8 +1,8 @@
 body {
     font-family: "Roboto", sans-serif;
     background-color: #1F2937;
-    display: flex;
-    flex-direction: column;
+    /*display: flex;
+    flex-direction: column;*/
 }
 
 .header-group {
@@ -60,18 +60,37 @@ color: #E5E7EB;
 button {
     padding: 12px 24px;
     border-radius: 8px;
+    color: #F9FAF8;
 }
 
 .information-section {
-    display: flex;
     background-color: white;
     margin: 0;
+    text-align: center;
+    padding: 32px;
+}
+
+.image-gallery {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+}
+
+.img-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .card {
     border: #3882F6;
-    border-style: double;
+    border-style: solid;
     border-radius: 8px;
-    width: 100px;
+    width: 150px;
     height: 100px;
+}
+
+.info-subtext {
+    margin-top: 5px;
+    flex: 1;
 }
